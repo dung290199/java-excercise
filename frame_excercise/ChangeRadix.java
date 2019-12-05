@@ -6,7 +6,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ChangeRadix extends JFrame implements ActionListener {
-
     JLabel lb1, lb2, lb3, lb4, lb5;
     JTextField txt1, txt2, txt3, txt4;
     JButton ok, reset, exit;
