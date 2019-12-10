@@ -10,8 +10,7 @@ public class Connect2 {
     public void connect(){
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con= DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/data","root","123456");
+            Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/data","root","123456");
             Statement stmt=con.createStatement();
             ResultSet rs=stmt.executeQuery("select * from Table1");
             while(rs.next())

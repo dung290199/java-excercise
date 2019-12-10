@@ -31,7 +31,6 @@ public class ActionEventTest extends JFrame implements ItemListener, ActionListe
 
         ok.addActionListener(this);
         text.addKeyListener(this);
-//		text.addActionListener(this);
         choice.addItemListener(this);
 
         pn1.add(lb1);
